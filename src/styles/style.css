@@ -1,0 +1,25 @@
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.pokemonContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+}
+
+.pokemonCard {
+    flex: 1 1 75px; 
+    margin: 10px;
+    cursor: pointer; 
+    background-color:cadetblue;
+    border-radius: 20px;
+}
+
+.pokemonCard img {
+    max-width: 100%;
+    height: auto;
+}
